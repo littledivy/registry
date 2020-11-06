@@ -9,7 +9,7 @@ import (
 
 const registryURL = "https://x.nest.land"
 
-var modules = []string{"autopilot", "sass", "css", "audio"}
+var modules = []string{"autopilot", "sass", "css", "audio", "brainfuck"}
 
 func containsModule(slice []string, item string) bool {
     set := make(map[string]struct{}, len(slice))
